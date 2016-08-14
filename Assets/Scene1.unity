@@ -156,6 +156,8 @@ GameObject:
   - 4: {fileID: 1634811442}
   - 212: {fileID: 1634811441}
   - 111: {fileID: 1634811440}
+  - 61: {fileID: 1634811443}
+  - 50: {fileID: 1634811444}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -214,11 +216,42 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1634811439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.59, y: 0.43, z: 0}
+  m_LocalPosition: {x: -2.64, y: 2.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!61 &1634811443
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1634811439}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.15, y: 2.94}
+--- !u!50 &1634811444
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1634811439}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1822955358
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +347,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1868563287}
   - 212: {fileID: 1868563286}
+  - 61: {fileID: 1868563288}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -362,4 +396,18 @@ Transform:
   m_LocalScale: {x: 18.007416, y: 1.016416, z: 2.0506508}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
+--- !u!61 &1868563288
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1868563285}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
