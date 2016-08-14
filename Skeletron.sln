@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skeletron.CSharp.Plugins", "Skeletron.CSharp.Plugins.csproj", "{3774CA66-1D5A-41E8-A0A6-7299A0264C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skeletron.CSharp.Editor", "Skeletron.CSharp.Editor.csproj", "{F114D2A0-C6DA-2E9A-BCC2-DAE63A60F196}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3774CA66-1D5A-41E8-A0A6-7299A0264C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3774CA66-1D5A-41E8-A0A6-7299A0264C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3774CA66-1D5A-41E8-A0A6-7299A0264C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3774CA66-1D5A-41E8-A0A6-7299A0264C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F114D2A0-C6DA-2E9A-BCC2-DAE63A60F196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F114D2A0-C6DA-2E9A-BCC2-DAE63A60F196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F114D2A0-C6DA-2E9A-BCC2-DAE63A60F196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F114D2A0-C6DA-2E9A-BCC2-DAE63A60F196}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
