@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{EB49602E-7D6E-0C9A-9CA7-A38BA3FE62BB}") = "Skeletron", "Assembly-CSharp-firstpass.csproj", "{FEF0F336-6EC5-3251-E510-D301021C58F1}"
+EndProject
+Project("{EB49602E-7D6E-0C9A-9CA7-A38BA3FE62BB}") = "Skeletron", "Assembly-CSharp-Editor.csproj", "{779A43B7-6BF5-CA0E-72DF-AC25F8BD3F36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF0F336-6EC5-3251-E510-D301021C58F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF0F336-6EC5-3251-E510-D301021C58F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF0F336-6EC5-3251-E510-D301021C58F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF0F336-6EC5-3251-E510-D301021C58F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779A43B7-6BF5-CA0E-72DF-AC25F8BD3F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779A43B7-6BF5-CA0E-72DF-AC25F8BD3F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779A43B7-6BF5-CA0E-72DF-AC25F8BD3F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779A43B7-6BF5-CA0E-72DF-AC25F8BD3F36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
